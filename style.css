@@ -326,7 +326,8 @@ nav h3{
     justify-content: center;
     
 }
-.html-lang{
+.web-lang a{
+    color: black;
     
 }
 .html-lang , .css-lang ,.java-lang {
