@@ -106,6 +106,7 @@ nav h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .main-container{
@@ -120,13 +121,66 @@ nav h3{
 .web-heading{
     width: 852px;
     height: 115px;
+    text-align: center;
+    
     border: 2px solid red;
+}
+.web-heading h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
 }
 .para-1{
     width: 850px;
     height: 240px;
     border: 2px solid yellow;
+    display: flex;
+    justify-content: space-around;
+    
+    
 
+}
+.para-1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    border: 2px solid red;
+    
+    
+   
+}
+.para-1-container h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.para-1-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.para-1-container a {
+    text-decoration: none;
+    
+   
+}
+.para-1-container span{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;   
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    
 }
 .para-2{
     width: 850px;
