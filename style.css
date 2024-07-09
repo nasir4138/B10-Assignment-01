@@ -353,4 +353,54 @@ nav h3{
     margin-bottom: 10px;
     
 }
+/* container-box-3 end  here */
 
+/* container-box-4  start  here  */
+.container-box-4{
+    width: 1140px;
+    height: 866px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.next-target-box-heading{
+    
+    margin: 0 auto;
+    text-align: center;
+
+}
+.next-target-box-heading h3{
+    margin-bottom: 25px;
+}
+.target-box{
+    width: 1140px;
+    height: 705px;
+    
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.target-box-1 , .target-box-2, .target-box-3{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    
+    
+}
+.target-box a{
+    color: black;
+
+}
+.lang-name{
+    margin-left: 20px;
+}
