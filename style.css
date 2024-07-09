@@ -94,4 +94,51 @@ nav h3{
     font-size: 20px;
     font-weight: 600;
 }
+/* hero area end here  */
+
+/* main section start here  */
+.container-box{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-container{
+    width: 946px;
+    height: 1235px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.web-heading{
+    width: 852px;
+    height: 115px;
+    border: 2px solid red;
+}
+.para-1{
+    width: 850px;
+    height: 240px;
+    border: 2px solid yellow;
+
+}
+.para-2{
+    width: 850px;
+    height: 240px;
+    border: 2px solid red;
+
+}
+.para-3{
+    width: 850px;
+    height: 240px;
+    border: 2px solid blue;
+
+    
+}
   
