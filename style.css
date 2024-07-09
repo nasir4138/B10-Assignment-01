@@ -97,10 +97,12 @@ nav h3{
 /* hero area end here  */
 
 /* main section start here  */
-.container-box{
+.container-box-1{
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
     margin: 0 auto;
     margin-top: 74px;
     display: flex;
@@ -112,10 +114,10 @@ nav h3{
 .main-container{
     width: 946px;
     height: 1235px;
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .web-heading{
@@ -123,7 +125,7 @@ nav h3{
     height: 115px;
     text-align: center;
     
-    border: 2px solid red;
+    
 }
 .web-heading h3{
     color: rgb(13, 19, 33);
@@ -135,7 +137,7 @@ nav h3{
 .para-1{
     width: 850px;
     height: 240px;
-    border: 2px solid yellow;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     
@@ -146,12 +148,7 @@ nav h3{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-    
-    border: 2px solid red;
-    
-    
-   
+
 }
 .para-1-container h4{
     color: rgba(13, 19, 33, 0.7);
@@ -172,7 +169,7 @@ nav h3{
     
    
 }
-.para-1-container span{
+.link-learn-more{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;   
     color: rgb(13, 19, 33);
@@ -185,14 +182,37 @@ nav h3{
 .para-2{
     width: 850px;
     height: 240px;
-    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
-.para-3{
-    width: 850px;
-    height: 240px;
-    border: 2px solid blue;
-
+.para-2-container{
+    width: 477px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+.para-2-container h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.para-2-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
     
+
 }
+
+.para-2-container a{
+    text-decoration: none;
+}
+
   
