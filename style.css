@@ -289,7 +289,7 @@ nav h3{
 .container-box-3{
     width: 1140px;
     height: 460px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 150px;
     display: flex;
@@ -311,7 +311,7 @@ nav h3{
 .target-page-body{
     width: 1140px;
     height: 299px;
-    border: 2px solid red;
+    
     display: flex;
     
     align-items: center;
@@ -320,15 +320,36 @@ nav h3{
 .web-lang{
     width: 364px;
     height: 299px;
-    border: 2px solid red;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-#html-lang , #css-lang ,#java-lang {
+.html-lang{
+    
+}
+.html-lang , .css-lang ,.java-lang {
     width: 284px;
     height: 219px;
-    border: 2px solid red;
+    padding: 10px 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+   
+   
+
+}
+.html-lang img,p{
+    margin-bottom: 10px;
     
+
+}
+.css-lang img,p{
+    margin-bottom: 10px;
+
+}
+.java-lang img,p{
+    margin-bottom: 10px;
     
 }
+
