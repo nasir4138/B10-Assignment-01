@@ -323,19 +323,34 @@ nav h3{
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    
     
 }
+
 .web-lang a{
     color: black;
     
 }
+.html-lang{
+    background-color: #FFF6F4;
+
+}
+.css-lang {
+    background-color: #F2F6FE;
+
+}
+.java-lang{
+    background-color:#Fffdf2 ;
+
+}
+
 .html-lang , .css-lang ,.java-lang {
     width: 284px;
     height: 219px;
-    padding: 10px 40px;
+    padding: 20px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    
    
    
 
@@ -374,6 +389,10 @@ nav h3{
 }
 .next-target-box-heading h3{
     margin-bottom: 25px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
 }
 .target-box{
     width: 1140px;
@@ -393,7 +412,7 @@ nav h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8px;
+    
     
     
 }
