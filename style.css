@@ -507,6 +507,8 @@ nav h3{
 .input-container .btn{
     margin-left: 10px;
     width: 120px;
+    background:white;
+    opacity: 1;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
