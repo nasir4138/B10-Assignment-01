@@ -438,19 +438,76 @@ nav h3{
 
 
 
-/* main part end  */
 
 
 
-/* footer part start here */
+
+/* container-box-5 start  here*/
 
 .footer{
     width: 1140px;
     height: 313px;
+    border-radius: 16px;
     border: 2px solid red;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-image: url(assets/handshake.jpg);
+    margin: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
     background-repeat: none;
-    background-size: cover; 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-box{
+    width: 1044px;
+    height: 185px;
+    border: 2px solid red;
+    color: #FFF6F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+
+}
+.footer-box h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.footer-box p{
+    color: rgba(255, 255, 255, 0.985);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input-container {
+    display: flex;
+
+    margin-top: 20px;
+    width: 548px;
+    height: 57px;
+}
+
+.input-container .text{
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+.input-container .btn{
+    margin-left: 10px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
