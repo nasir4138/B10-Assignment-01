@@ -444,11 +444,10 @@ nav h3{
 
 /* container-box-5 start  here*/
 
-.footer{
+#footer{
     width: 1140px;
     height: 313px;
     border-radius: 16px;
-    
     margin: auto;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
     background-repeat: none;
