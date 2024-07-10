@@ -447,6 +447,7 @@ nav h3{
 /* footer start here  */
 
 #footer{
+   
     width: 1140px;
     height: 313px;
     border-radius: 16px;
@@ -491,7 +492,7 @@ nav h3{
 .input-container {
     display: flex;
 
-    margin-top: 20px;
+    margin-bottom: 50px;
     width: 548px;
     height: 57px;
 }
