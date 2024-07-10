@@ -448,7 +448,7 @@ nav h3{
     width: 1140px;
     height: 313px;
     border-radius: 16px;
-    border: 2px solid red;
+    
     margin: auto;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
     background-repeat: none;
@@ -463,7 +463,7 @@ nav h3{
 .footer-box{
     width: 1044px;
     height: 185px;
-    border: 2px solid red;
+    
     color: #FFF6F4;
     display: flex;
     flex-direction: column;
@@ -510,4 +510,29 @@ nav h3{
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.ending-part{
+    width: 1440px;
+    height: 100px;
+    
+    margin: auto;
+    margin-top: 80px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ending-container{
+    width: 1140px;
+    height: 36px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ending-container .developer-owner{
+    color: rgb(13, 19, 33);
+    
 }
